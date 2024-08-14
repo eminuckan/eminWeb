@@ -1,3 +1,6 @@
 module.exports = {
-    plugins: [require('@pandacss/dev/postcss'), require('autoprefixer')],
+    plugins: {
+        '@pandacss/dev/postcss': {},
+        autoprefixer: {},
+    },
 }
